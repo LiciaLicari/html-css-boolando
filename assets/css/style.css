@@ -7,3 +7,12 @@ box-sizing: border-box;
 body {
 font-family: 'Ubuntu', sans-serif;
 }
+
+:root
+{
+  --bn-primary: #fe6901;
+  --bn-accent: #ff0101;
+  --bn-accent-environment: #018100;
+  --bn-dark: #1b1b1a;
+  --bn-light: #fdfaf7;
+}
