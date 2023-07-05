@@ -17,7 +17,7 @@ font-family: 'Ubuntu', sans-serif;
   --bn-light: #fdfaf7;
 }
 
-.d-flex
+.container .d-flex
 {
   display: flex;
 }
@@ -34,6 +34,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 header {
+    min-width: 1170px;
     font-size: 18px;
     color: var(--bn-light);
     background-color: var(--bn-primary); 
@@ -71,36 +72,5 @@ text-decoration: none;
 
 
 
-/* #region Debug 
-.debug .container
-{
-  background-color: rgb(255, 166, 0);
-}
 
-.debug [class^='col-']
-{
-  height: 74px;
-  background-color: palegreen;
-  border: 1px dashed;
-}
-
-.debug .h-50
-{
-  height: 500px;
-}
-
-.debug .login,
-.debug .logo,
-.debug .menu
-{
-  border: 1px dashed;
-}
-
-.debug .container-sm
-{
-  background-color: palevioletred;
-  height: 100%;
-}
-
- #endregion Debug */
 
