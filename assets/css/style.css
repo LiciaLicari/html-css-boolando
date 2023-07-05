@@ -17,9 +17,8 @@ font-family: 'Ubuntu', sans-serif;
   --bn-light: #fdfaf7;
 }
 
-.container .d-flex
-{
-  display: flex;
+.d-flex {
+    display: flex;
 }
 
 .py-3 {
@@ -34,7 +33,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 header {
-    min-width: 1170px;
+    min-width: 1440px;
     font-size: 18px;
     color: var(--bn-light);
     background-color: var(--bn-primary); 
@@ -69,6 +68,7 @@ text-decoration: none;
   align-items: center;
   gap: 1rem;
 }
+
 
 
 
