@@ -16,3 +16,91 @@ font-family: 'Ubuntu', sans-serif;
   --bn-dark: #1b1b1a;
   --bn-light: #fdfaf7;
 }
+
+.d-flex
+{
+  display: flex;
+}
+
+.py-3 {
+  padding: 1rem 0.75rem;
+}
+
+.gender_list, .logo,
+.login
+{
+  display: flex;
+  align-items: center;
+}
+
+header {
+    font-size: 18px;
+    color: var(--bn-light);
+    background-color: var(--bn-primary); 
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.gender_list, .login {
+    width: 20%;
+  }
+  
+.logo {
+    width: 60%;
+    text-align: center;
+  }
+
+a {
+text-decoration: none;
+
+}
+
+.login {
+    text-align: end;
+  }
+
+.gender_list > a
+{
+  color: var(--ds-white);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+
+/* #region Debug 
+.debug .container
+{
+  background-color: rgb(255, 166, 0);
+}
+
+.debug [class^='col-']
+{
+  height: 74px;
+  background-color: palegreen;
+  border: 1px dashed;
+}
+
+.debug .h-50
+{
+  height: 500px;
+}
+
+.debug .login,
+.debug .logo,
+.debug .menu
+{
+  border: 1px dashed;
+}
+
+.debug .container-sm
+{
+  background-color: palevioletred;
+  height: 100%;
+}
+
+ #endregion Debug */
+
