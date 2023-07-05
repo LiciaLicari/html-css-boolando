@@ -24,6 +24,8 @@ padding: 2rem 0;
 margin: auto;
 }
 
+
+
 .d-flex {
     display: flex;
 }
@@ -41,11 +43,12 @@ margin: auto;
 
 header {
     min-width: 1440px;
+    display: flex;
+    align-items: center;
     font-size: 18px;
     color: var(--bn-light);
     background-color: var(--bn-primary); 
-    display: flex;
-    align-items: center;
+   
     gap: 0.25rem;
     margin-bottom: 1rem;
 }
@@ -93,7 +96,7 @@ text-decoration: none;
 
 [class^='col-4']
 {
-  padding: 0 0.25rem;
+  padding: 0 0.5rem;
 }
 
 .img {
