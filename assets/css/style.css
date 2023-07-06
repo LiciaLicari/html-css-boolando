@@ -18,16 +18,17 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
-max-width: 800px;
-width: 60%;
-padding: 2rem 0;
+max-width: 1170px;
+width: 100%;
 margin: auto;
+padding: 2rem 0;
 }
 
 
 
 .d-flex {
     display: flex;
+    justify-content: center;
 }
 
 .py-3 {
@@ -48,7 +49,6 @@ header {
     font-size: 18px;
     color: var(--bn-light);
     background-color: var(--bn-primary); 
-   
     gap: 0.25rem;
     margin-bottom: 1rem;
 }
@@ -62,14 +62,16 @@ header {
     text-align: center;
   }
 
+.login {
+text-align: end;
+}
+
 a {
 text-decoration: none;
 
 }
 
-.login {
-    text-align: end;
-  }
+
 
 .gender_list > a
 {
@@ -94,8 +96,7 @@ text-decoration: none;
   width: calc(100% / 12 * 4);
 }
 
-[class^='col-4']
-{
+[class^='col-4'] {
   padding: 0 0.5rem;
 }
 
